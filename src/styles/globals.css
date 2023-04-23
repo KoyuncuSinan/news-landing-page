@@ -20,7 +20,3 @@ body {
   color: rgb(var(--foreground-rgb));
   background: white, no-repeat,
 }
-
-li:hover{
-  text-decoration: underline;
-}
