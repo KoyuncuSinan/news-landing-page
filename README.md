@@ -13,3 +13,5 @@ This is a landing page for a tech news website built using React - Next.js and d
 
 ## Acknowledgements
 This project was created for a challenge and was inspired by various tech news websites. Special thanks to the creators of React, Next.js, TailwindCSS, and Material UI for providing excellent tools for building web applications.
+
+Note: It's fully optimized for only 375px and 1280px because of the challenge requirements.
