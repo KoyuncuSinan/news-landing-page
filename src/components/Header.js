@@ -9,7 +9,7 @@ export default function Header(){
     const [burgerClick, setBurgerClick] = useState(false)
     
 
-    const isMobile = useMediaQuery({ query: "(max-width: 375px)"})
+    const isMobile = useMediaQuery({ query: "(max-width: 899px)"})
     
     
     const BurgerMenu = () => {
@@ -33,7 +33,7 @@ export default function Header(){
     }
 
     return(
-        <nav className="flex justify-between w-[90%] md:w-[75%] items-center mx-auto relative">
+        <nav className="flex justify-between w-[90%] umd:w-[75%] items-center mx-auto relative">
 
             {isMobile ? <Image src="/logo.svg" alt="logo" width={40} height={40} className="mt-5" /> : 
             <Image src="/logo.svg" alt="logo" width={60} height={60} className="mt-16" />}
@@ -48,7 +48,7 @@ export default function Header(){
                 </div>
                 </>
                 
-            ):(<ul className="flex xl:mt-16 text-slate-600 hover:cursor-pointer">
+            ):(<ul className="flex umd:mt-16 text-slate-600 hover:cursor-pointer items-center">
                 <li className="mr-6 md:hover:text-[#E9AB53]"><h2>Home</h2></li>
                 <li className="mr-6 md:hover:text-[#E9AB53]"><h2>New</h2></li>
                 <li className="mr-6 md:hover:text-[#E9AB53]"><h2>Popular</h2></li>
